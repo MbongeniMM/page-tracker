@@ -41,7 +41,7 @@ RUN apt-get update && \
     apt-get upgrade --yes
 
 RUN useradd --create-home mbongeni
-USER realpython
+USER mbongeni
 WORKDIR /home/mbongeni
 
 ENV VIRTUALENV=/home/mbongeni/venv
